@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track{
+    background:transparent ;   
+}
+::-webkit-scrollbar-thumb{
+    background: grey;
+}
+.menu{
+    border-radius: 50%;
+}
+.menu :hover{
+    background-color:#f2f2f2;
+}
+.logo{
+    width:100px;
+}
+.left{
+    padding: 15px;
+}
+.right{
+    padding: 15px;
+}
+.bar{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding:10px;
+    width:30rem;
+    border:1px solid grey;
+}
+.search{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding:6px;
+    width:3rem;
+    border:1px solid grey;
+    border-left: none;
+    background-color: #f2f2f2;
+}
+.voice{
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    padding:8px;
+    margin-left: 1rem;
+}
+.acc-img{
+    border-radius: 50%;
+    width:2rem;
+    height:2rem;
+}
+.left-box{
+    width:45rem;
+    height:91vh;
+    position:sticky;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-size: 1rem;
+    scrollbar-width: 3px;
+}
+.left-box ul li{
+    list-style: none;
+    padding:10px;
+    display:flex;
+    align-items: center;
+    gap:1.5rem;
+    border-radius: 10px;
+}
+.left-box ul li:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.box7 pre{
+    font-size: 13px;
+    font-weight:bolder;
+    color:rgb(87, 87, 87);
+}
+.box7 p{
+    padding: 10px;
+    font-size: 11px;
+    color:rgb(124, 124, 124);
+}
+.b1,.b2{
+    padding:10px;
+    padding-bottom: 0px;
+}
+.right-box{
+    margin-left: 1.5rem;
+}
+.nav-bar{
+    height: 3rem;
+    align-items: center;
+}
+.nav{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav1{
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.content{
+    margin-top: .5rem;
+    height:83vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.thum{
+    border-radius: 1rem;
+    width: 400px;
+}
+.thumbnail{
+    margin: 5px;
+    margin-bottom: 3rem;
+}
+.thumbnail:hover{
+    cursor:pointer;
+}
+.title{
+    gap: 10px;
+    margin-top: 10px;
+    align-items:start;
+}
+.more{
+    color: #606060;
+    font-size: small;
+}
+.title1{
+    width:19rem;
+    font-size: medium;
+    font-weight: 500;
+    color:black;
+}
+.cname{
+    margin-top: 5px;
+}
